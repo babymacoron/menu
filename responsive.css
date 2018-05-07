@@ -1,0 +1,14 @@
+@media all and (max-width: 670px){
+
+  .contents-list{
+    display: none;
+  }
+
+  .tablet{
+    display: block;
+  }
+
+  .title h1{
+    font-size: 25px;
+    border: solid 2.5px;
+  }
