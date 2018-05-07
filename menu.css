@@ -1,0 +1,129 @@
+body {
+  font-family: "Yu Gothic UI Bold","Yu Gothic UI";
+}
+
+header{
+  background:linear-gradient(to bottom,#FFD5EC,white);
+  height: 130px;
+  width: 100%;
+}
+
+footer{
+  background:linear-gradient(to top,#FFD5EC,white);
+  height: 80px;
+  width: 100%;
+}
+
+.title{
+  font-family:cursive;
+  text-align: left;
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.title h1{
+  font-size:50px;
+  border: solid 5px;
+  border-radius: 40%;
+}
+
+.menu{
+  display: inline-block;
+  float: right;
+}
+
+.tablet{
+  position: absolute;
+  top: 30px;
+  right: 10px;
+  z-index: 8;
+  display: none;
+}
+
+.tablet-list{
+  background:linear-gradient(to bottom,#FFD5EC,white);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  transform: translateY(-100%);
+}
+
+.tablet-list.active{
+  transform: translateY(0%);
+}
+
+.menu-icon{
+  color: gray;
+  text-align: right;
+  font-size: 25px;
+  padding: 21px 21px;
+
+}
+
+.contents-list{
+  color: black;
+  cursor: pointer;
+}
+
+.list{
+  margin: 0px 10px;
+  display: inline-block;
+}
+
+.list a{
+  text-decoration: none;
+  color: gray;
+}
+
+.list a:hover{
+  color: black;
+  border-bottom: solid 1.5px;
+}
+
+.list span{
+  font-size: 5px;
+  display: none;
+}
+
+.contents-list-2{
+  color: black;
+  list-style: none;
+  text-align: center;
+}
+
+.list-2{
+  border-bottom: solid 1px gray;
+  margin: 15px 30px 15px 0px;
+  font-weight: bold;
+  color: gray;
+}
+
+.list-2:first-child{
+  margin-top: 70px;
+}
+
+.list-2:last-child{
+  border: none;
+}
+
+.list-2 span{
+  font-size: 5px;
+}
+
+.list-2 a{
+  text-decoration: none;
+  color: gray;
+}
+
+.lesson{
+  border-bottom: solid 5px #90ee90;
+}
+
+
+
+.over{
+  color: gray;
+  text-align: right;
+  margin-right: 20px;
+}
