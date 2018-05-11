@@ -116,10 +116,17 @@ footer{
   color: gray;
 }
 
+.main{
+  margin: 0 3%;
+}
+
 .lesson{
   border-bottom: solid 5px #90ee90;
 }
 
+.lesson:last-child{
+  border-bottom: none;
+}
 
 
 .over{
